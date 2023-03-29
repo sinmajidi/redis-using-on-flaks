@@ -1,0 +1,4 @@
+redis is a nosql database,in a simple word redis is a database that store data in RAM(random access memory) but for why?
+some times in projects you need to reduce server load,you can do it by redis,for example imagine a ticket selling system,the customers select origin and destination of bus or flight.
+maybe customer comes to our system to inquiry prices so that we do'nt need to set load on our server to get prices,we can store prices of several famous and papular origin to distation on a temporary space,so we use to redis to storing temporary data on RAM to use on system.
+there is some simple test to use redis on flask.enjoy it...
